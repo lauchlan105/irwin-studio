@@ -6,6 +6,3 @@ entry-point = "./src/index.ts"
 workers_dev = true
 route = ""
 zone_id = ""
-
-[env.staging]
-name = "is-be-staging"

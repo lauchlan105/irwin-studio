@@ -4,7 +4,6 @@ on:
   pull_request:
     branches:
       - main
-      - staging
 
 jobs:
   validate:
@@ -48,10 +47,6 @@ jobs:
       - name: Test - types (frontend)
         working-directory: ./packages/frontend
         run: yarn test:types
-
-      - name: Test - unit (frontend)
-        working-directory: ./packages/frontend
-        run: yarn test:unit
 
       - name: Build (frontend)
         working-directory: ./packages/frontend

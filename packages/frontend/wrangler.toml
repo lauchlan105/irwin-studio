@@ -8,8 +8,3 @@ route = ""
 [site]
 bucket = "./build"
 entry-point = "workers-site"
-
-[env.staging]
-name = "is-fe-staging"
-bucket = "./build"
-entry-point = "workers-site"
